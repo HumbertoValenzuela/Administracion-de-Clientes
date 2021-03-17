@@ -1,0 +1,24 @@
+{
+  "name": "adminflex-inicio",
+  "version": "1.0.0",
+  "description": "Sistema con menus adminFlex ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HumbertoValenzuela/Administracion-de-Clientes.git"
+  },
+  "author": "Humberto Valenzuela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HumbertoValenzuela/Administracion-de-Clientes/issues"
+  },
+  "homepage": "https://github.com/HumbertoValenzuela/Administracion-de-Clientes#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.1.0"
+  }
+}
