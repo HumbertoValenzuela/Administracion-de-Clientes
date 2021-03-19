@@ -4,15 +4,269 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AdminFlex</title>
+    <title>Admin FlexBox</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome-all.min.css">
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+    <!-- aca se agrega una clase extra mediante JS -->
+    <div class="pagina">
 
+        <header class="header">
 
-<script src="js/app.js" defer></script>
+            <div class="header__nombre-sitio">
+                <h1 class="color-h1-h2-p-span-a headerh1--escritorio">Admin Flex</h1>
+                <h1 class="color-h1-h2-p-span-a headerh1--movil">AF</h1>
+            </div>
+
+            <div class="header__barra">
+
+                <div class="header__menu-izquierdo">
+                    <i class="fas fa-arrow-left"></i>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+               
+                <div class="header__menu-derecho">
+
+                    <div class="header__caja mensaje">
+                        <a href="#" class="header__link">
+                            <i class="fas fa-comment-alt"></i>
+                            Mensajes
+                            <span class="header__span-cantidad">20 </span>
+                        </a>
+                    </div>
+
+                    <div class="header__caja alerta">
+                        <a href="#" class="header__link">
+                            <i class="fas fa-bell"></i>
+                            Alertas
+                            <span class="header__span-cantidad">100 </span>
+                        </a>
+                    </div>
+
+                    <div class="header__caja cerrar">
+                        <a href="#" class="header__link">                          
+                            Cerrar Sesión                           
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        <main class="principal">
+
+            <aside class="principal__sidebar">
+
+                <div class="principal__usuario">
+
+                    <img class="principal__imgperfil" src="img/usuario.svg" alt="Imagen Usuario">
+                    <p class="principal__pperfil color-h1-h2-p-span-a">Bienvenido <span class="color-h1-h2-p-span-a principal__span">Administrador</span></p>
+                </div>
+
+                <div class="principal__buscador">
+                    <input type="text" id="" placeholder="Buscar...">
+                </div>
+
+                <div class="principal__menu-admin">
+                    <h2 class="color-h1-h2-p-span-a">Menú de Administración</h2>
+                    <ul class="principal__menu">
+
+                        <li class="principal__menu-li-1nivel" tabindex="0">
+                            <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                <i class="fas fa-address-book"></i>
+                                Clientes
+                            </a>
+
+                            <ul class="principal__menu-ul-2nivel">
+                                <li class="principal__submenu-li-2nivel">
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-list"></i>
+                                        Ver Todos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-plus"></i>
+                                        Agregar Nuevo
+                                    </a>
+                                </li>                                
+                            </ul>
+
+                        </li>
+
+                        <li class="principal__menu-li-1nivel">
+                            <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                <i class="fas fa-chart-line"></i>
+                                Ventas
+                            </a>
+
+                            <ul class="principal__menu-ul-2nivel">
+                                <li class="principal__submenu-li-2nivel">
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-list"></i>
+                                        Ver Todos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-plus"></i>
+                                        Agregar Nuevo
+                                    </a>
+                                </li>                                
+                            </ul>
+
+                        </li>
+                        <li class="principal__menu-li-1nivel">
+                            <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                <i class="fas fa-box"></i>
+                                Inventario
+                            </a>
+
+                            <ul  class="principal__menu-ul-2nivel">
+                                <li class="principal__submenu-li-2nivel">
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-list"></i>
+                                        Ver Todos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-plus"></i>
+                                        Agregar Nuevo
+                                    </a>
+                                </li>                                
+                            </ul>
+
+                        </li>
+                        <li class="principal__menu-li-1nivel">
+                            <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                <i class="fas fa-file-alt"></i>
+                                Facturas
+                            </a>
+
+                            <ul class="principal__menu-ul-2nivel">
+                                <li class="principal__submenu-li-2nivel">
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-list"></i>
+                                        Ver Todos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-plus"></i>
+                                        Agregar Nuevo
+                                    </a>
+                                </li>                                
+                            </ul>
+
+                        </li>
+                        <li class="principal__menu-li-1nivel">
+                            <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                <i class="fas fa-calendar-alt"></i>
+                                Calendario
+                            </a>
+
+                            <ul class="principal__menu-ul-2nivel">
+                                <li class="principal__submenu-li-2nivel">
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-list"></i>
+                                        Ver Todos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-plus"></i>
+                                        Agregar Nuevo
+                                    </a>
+                                </li>                                
+                            </ul>
+
+                        </li>
+                        <li class="principal__menu-li-1nivel">
+                            <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                <i class="fas fa-pencil-alt"></i>
+                                Editar Perfil
+                            </a>
+
+                            <ul class="principal__menu-ul-2nivel">
+                                <li class="principal__submenu-li-2nivel">
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-list"></i>
+                                        Ver Todos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="color-h1-h2-p-span-a principal__link">
+                                        <i class="fas fa-plus"></i>
+                                        Agregar Nuevo
+                                    </a>
+                                </li>                                
+                            </ul>
+
+                        </li>
+
+                    </ul>
+                </div>
+
+            </aside>
+
+            <div class="principal__contenido">
+                <h2 class="encabezado">Administracion de Clientes</h2>
+
+                <form action="" class="formulario">
+<!-- Tendran class="campo" esto para aplicar flexbox -->
+                    <div class="campo">
+                        <label for="nombre">Nombre Cliente</label>
+                        <input type="text" id="nombre1">
+                    </div>
+                    <div class="campo">
+                        <label for="nombre">Apellido Cliente</label>
+                        <input type="text" id="nombre2">
+                    </div>
+                    <div class="campo">
+                        <label for="nombre">Empresa</label>
+                        <input type="text" id="nombre3">
+                    </div>
+                    <div class="campo">
+                        <label for="nombre">Dirección</label>
+                        <input type="text" id="nombre4">
+                    </div>
+                    <div class="campo expandir">
+                        <label for="nombre">Otra Información</label>
+                        <textarea name="" id="5" cols="30" rows="10"></textarea>
+                    </div>
+    
+                    <div class="campo expandir">
+                            <label>Membresia:</label>
+                            <div class="opciones">
+                                <input type="radio" id="normal" name="contact" value="normal">
+                                <label for="normal">Normal</label>
+                            
+                                <input type="radio" id="basico" name="contact" value="basico">
+                                <label for="basico">Básico</label>
+                            
+                                <input type="radio" id="premium" name="contact" value="premium">
+                                <label for="premium">Premium</label>
+    
+                                <input type="radio" id="gold" name="contact" value="gold">
+                                <label for="gold">Gold</label>
+                            </div>
+                    </div>
+    
+                    <div class="campo enviar expandir">
+                        <input type="submit" class="boton" value="Enviar">
+                    </div>
+                </form>
+
+            </div>
+        </main>
+    </div>
+    
+<script src="js/app.js" async="" defer=""></script>
 </body>
 </html>
